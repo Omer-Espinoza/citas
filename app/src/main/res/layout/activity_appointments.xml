@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+>
+
+    <!-- Header -->
+    <LinearLayout
+            android:id="@+id/headerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+    >
+        <ImageView
+                android:id="@+id/imageViewBack"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/vector_arrow"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:onClick="onImageButtonClickBack"
+        />
+
+
+        <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Appointment's"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+        />
+
+        <ImageView
+                android:id="@+id/imageViewAdd"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/vector_circle"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:onClick="onImageButtonClickAdd"
+        />
+
+    </LinearLayout>
+
+    <!-- Main -->
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+    >
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+        >
+
+            <!--            Content 1-->
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:background="@drawable/border_background"
+                    android:layout_marginVertical="5dp"
+                    android:backgroundTint="@color/info"
+            >
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Title"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="8dp"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+            </LinearLayout>
+
+            <!--            Content 2-->
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:background="@drawable/border_background"
+                    android:layout_marginVertical="5dp"
+                    android:backgroundTint="@color/info"
+            >
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Title"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="8dp"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+            </LinearLayout>
+
+            <!--            Content 3-->
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:background="@drawable/border_background"
+                    android:layout_marginVertical="5dp"
+                    android:backgroundTint="@color/info"
+            >
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Title"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="8dp"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+            </LinearLayout>
+
+            <!--            Content 4-->
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:background="@drawable/border_background"
+                    android:layout_marginVertical="5dp"
+                    android:backgroundTint="@color/info"
+            >
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Title"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="8dp"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+            </LinearLayout>
+
+            <!--            Content 5-->
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:background="@drawable/border_background"
+                    android:layout_marginVertical="5dp"
+                    android:backgroundTint="@color/info"
+            >
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Title"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="8dp"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+            </LinearLayout>
+
+            <!--            Content 6-->
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:background="@drawable/border_background"
+                    android:layout_marginVertical="5dp"
+                    android:backgroundTint="@color/info"
+            >
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Title"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="8dp"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+            </LinearLayout>
+
+            <!--            Content 7-->
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:background="@drawable/border_background"
+                    android:layout_marginVertical="5dp"
+                    android:backgroundTint="@color/info"
+            >
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Title"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="8dp"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 01/01/2023"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_gravity="center_horizontal"
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
